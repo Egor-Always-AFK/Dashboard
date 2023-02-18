@@ -1,36 +1,40 @@
-<div id = "bg__frame_1"></div>
+<body>
+	
+	<div id = "bg__frame_1"></div>
+	
+	<div id = "head">head</div>
 
-<div id = "shapka">Skibidi dop dop dop dop dop yes yes</div>
+	<div id = "powered_by_gadza">powered_by_gadza</div>
 
-<div id = "powered_by_gadza">powered_by_gadza</div>
+	<div id = "table_input">input ur table</div>
 
-<div id = "table_input">input ur table</div>
+	<div id = "rectangle_sort_municipality">municipality</div>
+	
+	<div id = "rectangle_sort_year">year</div>
 
-<div id = "rectangle_sort_year">year</div>
+	<div id = "rectangle_sort_month">month</div>
 
-<div id = "rectangle_sort_municipality">municipality</div>
+	<div id = "rectangle_sort_reg">reg</div>
 
-<div id = "rectangle_sort_month">month</div>
+	<div id = "graph_1"></div>
 
-<div id = "rectangle_sort_reg">reg</div>
+	<div id = "graph_2"></div>
 
-<div id = "graph_1"></div>
+	<div id = "graph_3"></div>
 
-<div id = "graph_2"></div>
+	<div id = "gistogramma"></div>
 
-<div id = "graph_3"></div>
+	<div id = "diagram"></div>
 
-<div id = "gistogramma"></div>
+	<div id = "interactive_map"></div>
 
-<div id = "diagram"></div>
+	<div id = "rosmol_logo_rgb_2_1"><img src="./rosmol_logo_rgb_2_1.png" alt="logo"></div>
 
-<div id = "interactive_map"></div>
-
-<div id = "rosmol_logo_rgb_2_1">img {"./rosmol_logo_rgb_2_1.png"} alt</div>
+</body>
 
 <style>
 	/* Only edit this if you know what you are doing! */
-	body { margin: 0; padding: 0; font-family:"Arial"; overflow-x:hidden; }
+	body { background-color: #8181ff; background-size: auto; margin: 0; padding: 0; font-family:"Arial"; overflow-x:hidden; }
 
 	/* Only edit this if you know what you are doing! */
 	img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
@@ -41,9 +45,10 @@
 	content-container { display: block; position: relative; width: 1728px; height: 2340px; overflow: hidden;  margin-left: auto; margin-right: auto;  }
 
 	#bg__frame_1 {
-		position: relative;
+		position: inherit;
 		width: 1728px;
 		height: 2340px;
+		background-size: auto;
 		background-color: #000000;
 		background: #8181ff;
 	}
@@ -53,7 +58,7 @@
 		width: 546px;
 		height: 439px;
 	}
-	#shapka {
+	#head {
 		top: 91px;
 		left: -17px;
 		width: 1787px;
@@ -80,141 +85,97 @@
 		left: 681px;
 		width: 379px;
 		height: 53px;
-        overflow: hidden; 
-        font-family: Inter;
-        font-size: 50px;
-        text-align: center;
-        
-		background:rgba(217,217,217,1);
-	}
-	#table_input_ek1 {
-		top: 239px;
-		left: 682px;
-		width: 385px;
-		height: 58px;
-		overflow: hidden;
+		overflow: hidden; 
 		font-family: Inter;
-		font-size: 48px;
+		font-size: 50px;
 		text-align: center;
-		color:#000000;
-	}
-	#rectangle_sort_year {
-		top: 329px;
-		left: 236.99px;
-		width: 198.02px;
-		height: 54px;
-        overflow: hidden;
-        font-family: Inter;
-        font-size: 40px;
-        text-align: center;
 		background:rgba(217,217,217,1);
-	}
-	#sort__year {
-		top: 350px;
-		left: 233px;
-		width: 215px;
-		height: 35px;
-		overflow: hidden;
-		font-family: Inter;
-		font-size: 10px;
-		text-align: center;
-		color:#000000;
 	}
 	#rectangle_sort_municipality {
 		top: 329px;
-		left: 20px;
+		left: 5%;	
 		width: 200px;
 		height: 54px;
-		background:rgba(217,217,217,1);
-	}
-	#sort_municipality {
-		top: 339px;
-		left: 24px;
-		width: 199px;
-		height: 48px;
 		overflow: hidden;
 		font-family: Inter;
-		font-size: 20px;
+		font-size: 40px;
 		text-align: center;
-		color:#000000;
+		background:rgba(217,217,217,1);
+	}
+	#rectangle_sort_year {
+		top: 329px;
+		left: 17%;
+		width: 198.02px;
+		height: 54px;
+		overflow: hidden;
+		font-family: Inter;
+		font-size: 40px;
+		text-align: center;
+		background:rgba(217,217,217,1);
 	}
 	#rectangle_sort_month {
 		top: 329px;
-		left: 452px;
+		left: 29%;
 		width: 200px;
 		height: 54px;
-		background:rgba(217,217,217,1);
-	}
-	#sort_month {
-		top: 342px;
-		left: 449px;
-		width: 215px;
-		height: 43px;
 		overflow: hidden;
 		font-family: Inter;
-		font-size: 20px;
+		font-size: 40px;
 		text-align: center;
-		color:#000000;
+		background:rgba(217,217,217,1);
 	}
 	#rectangle_sort_reg {
 		top: 329px;
-		left: 668px;
+		left: 41%;
 		width: 200px;
 		height: 54px;
-		background:rgba(217,217,217,1);
-	}
-	#sort_region {
-		top: 345px;
-		left: 665px;
-		width: 215px;
-		height: 40px;
 		overflow: hidden;
 		font-family: Inter;
-		font-size: 20px;
+		font-size: 40px;
 		text-align: center;
-		color:#000000;
+		background:rgba(217,217,217,1);
 	}
 	#gistogramma {
 		top: 405px;
-		left: 20px;
+		left: 5%;
 		width: 1096px;
 		height: 418px;
 		background:rgba(217,217,217,1);
 	}
 	#diagram {
 		top: 405px;
-		left: 1172px;
+		right: 5%;
 		width: 520px;
 		height: 418px;
 		background:rgba(217,217,217,1);
 	}
 	#graph_1 {
 		top: 863px;
-		left: 20px;
+		left: 5%;
 		width: 519px;
 		height: 519px;
 		background:rgba(217,217,217,1);
 	}
 	#graph_2 {
 		top: 863px;
-		left: 597px;
+		left: 35.6%;
 		width: 519px;
 		height: 519px;
 		background:rgba(217,217,217,1);
 	}
 	#graph_3 {
 		top: 863px;
-		left: 1173px;
+		right: 5%;
 		width: 519px;
 		height: 519px;
 		background:rgba(217,217,217,1);
 	}
 	#interactive_map {
 		top: 1426px;
-		left: 18px;
+		left: 5%;
 		width: 1674px;
 		height: 689px;
-        overflow: hidden;
+		overflow: hidden;
 
 		background:rgba(217,217,217,1);
 	}

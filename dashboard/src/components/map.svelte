@@ -9,21 +9,37 @@
 </style>
 
 <script>
-    import { onMount } from "svelte/internal";
+    import { onMount } from "svelte/internal"
 
-    // onMount (() => {
-    //     const paths = document.querySelectorAll("path")
-    //     paths.forEach(element => element.addEventListener("mouseover", function() {
-    //         window.onmousemove = function(e) {
-    //             x = e.clientX
-    //             y = e.clientY
-                
-    //         })
-    //     })
-    // })
+    onMount (() => {
+        const paths = document.querySelectorAll("path")
+
+        paths.forEach(element => {
+            element.addEventListener("mouseover", function() {
+                window.onmousemove = function(e) {
+                    x = e.clientX
+                    y = e.clientY
+                    document.getElementById("name").style.top = y - 20 + "px"
+                    document.getElementById("name").style.left = x - 20 + "px"
+                }
+            
+            element.style = "#9e9e9e"
+            document.getElementById("pname").innerText = "element.data-title"
+            document.getElementById("name").style.opacity = 1
+            })
+    
+            element.onmouseleave = function() {
+                element.style.fill = "#ececec"
+                document.getElementById("name").style.opacity = 0
+            }
+        })
+    })
 
 </script>
 
+<div id = "name">
+    <p id = "label">aaa</p>
+</div>
 
 <svg viewBox = "0 0 808.9 458.9" fill = "#ececec" stroke = "black" stroke-linejoin= "round" preserveAspectRatio = "xMidYMid meet">
     <path data-title="Республика Крым" class = "ua" data-code="RU-CR" d="M1.6,328.6H4l1.2,0.8l1.5,0.2v-0.9l1.3-0.2l0.8,1.3h3.3l0.1-1.1
