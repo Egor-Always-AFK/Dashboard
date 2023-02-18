@@ -1,19 +1,32 @@
-<div id = "bg__frame_1">
-</div>
+<div id = "bg__frame_1"></div>
 
-<div id = "bg__frame_1">
-</div>
+<div id = "shapka">Skibidi dop dop dop dop dop yes yes</div>
 
-<div id = "shapka">
-</div>
+<div id = "powered_by_gadza">powered_by_gadza</div>
 
-<div id = "powered_by_gadza">
-</div>
+<div id = "table_input">input ur table</div>
 
-<div id = "bg__frame_1">
-</div>
+<div id = "rectangle_sort_year">year</div>
 
-<div id = "table_input"></div>
+<div id = "rectangle_sort_municipality">municipality</div>
+
+<div id = "rectangle_sort_month">month</div>
+
+<div id = "rectangle_sort_reg">reg</div>
+
+<div id = "graph_1"></div>
+
+<div id = "graph_2"></div>
+
+<div id = "graph_3"></div>
+
+<div id = "gistogramma"></div>
+
+<div id = "diagram"></div>
+
+<div id = "interactive_map"></div>
+
+<div id = "rosmol_logo_rgb_2_1">img {"./rosmol_logo_rgb_2_1.png"} alt</div>
 
 <style>
 	/* Only edit this if you know what you are doing! */
@@ -67,6 +80,11 @@
 		left: 681px;
 		width: 379px;
 		height: 53px;
+        overflow: hidden; 
+        font-family: Inter;
+        font-size: 50px;
+        text-align: center;
+        
 		background:rgba(217,217,217,1);
 	}
 	#table_input_ek1 {
@@ -85,6 +103,10 @@
 		left: 236.99px;
 		width: 198.02px;
 		height: 54px;
+        overflow: hidden;
+        font-family: Inter;
+        font-size: 40px;
+        text-align: center;
 		background:rgba(217,217,217,1);
 	}
 	#sort__year {
@@ -94,7 +116,7 @@
 		height: 35px;
 		overflow: hidden;
 		font-family: Inter;
-		font-size: 20px;
+		font-size: 10px;
 		text-align: center;
 		color:#000000;
 	}
@@ -192,6 +214,8 @@
 		left: 18px;
 		width: 1674px;
 		height: 689px;
+        overflow: hidden;
+
 		background:rgba(217,217,217,1);
 	}
 
