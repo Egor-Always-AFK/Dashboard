@@ -11,20 +11,16 @@
 <script>
     import { onMount } from "svelte/internal";
 
-    onMount (() => {
-        const paths = document.querySelectorAll("path")
-        paths.forEach(element => element.addEventListener("mouseover", function() {
-            window.onmousemove = function(e) {
-                x = e.clientX
-                y = e.clientY
+    // onMount (() => {
+    //     const paths = document.querySelectorAll("path")
+    //     paths.forEach(element => element.addEventListener("mouseover", function() {
+    //         window.onmousemove = function(e) {
+    //             x = e.clientX
+    //             y = e.clientY
                 
-            }
-
-            e.addEventListener("mouseleave", function() {
-                e.style 
-            })
-        })
-    })
+    //         })
+    //     })
+    // })
 
 </script>
 
