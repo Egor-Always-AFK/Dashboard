@@ -70,8 +70,8 @@
 		color:#b70000;
 	}
 	#powered_by_gadza {
-		top: 2264px;
-		left: -17px;
+		bottom: 100%;
+		left: 50%;
 		width: 1757px;
 		height: 110px;
 		overflow: hidden;
